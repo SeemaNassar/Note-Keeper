@@ -11,8 +11,9 @@
 
 .App-header { 
   display: flex;
-  gap: 35px;
-  padding-left: 15px;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-left: 10px;
   align-items: center;
   border-bottom: 0.5px solid #E9EAED;
 
@@ -26,6 +27,5 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 5px; 
-  margin: 0 65px;
   padding: 20px;
 }
